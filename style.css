@@ -1,94 +1,107 @@
-.head{
-    background-color:black;                                 
-    text-align: center;
-    padding:10px;
-    margin: 20px;
-    color:beige;
-    border-radius: 30px;
+*{
+   margin:0%;
+   padding: 0%;
+}
 
+.main{
+   background-color:antiquewhite;
+}
+
+
+.head{
+   color:lightseagreen;
+   background-color: black;
+   padding: 25px;
+   margin: 10px;
+   text-align: center ;
+   margin-top: 15px;
 
 }
 
-.image{
-    display: inline-block;
-    padding: 10px;
-    margin: 12px;
-    text-align: center;
-    align-items: center;
-    
+
+
+
+h1,li,ul{
+   display: inline;
    
+}
+
+ul,li{
+   align-content: end;
+   color:grey;
 }
 
 .box{
-    border-color: black;
-    border-width: 4px;
-    width:25%;
-    border-style: solid;
-    margin:55px;
-    display: inline-block;
-    background-color: black;
-    border-radius: 25px;
-
+   padding:60px;
+   margin: 50px;
+   border-width: 5px;
+   border-style: solid;
+   display: inline-block;
+   width: 250px;
+   height: 450px;
+   text-align: center;
+   border-radius: 50px;
+   margin-left: 60px;
  
 }
 
-h2{
-   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
-   color:blanchedalmond;
-  
+ul{
+   margin-left:65%;
+}
+.u1,li:hover{
+   color: white;
+   cursor:pointer;
+}
+
+.search-box
+{
+   padding: 55px;
+   text-align: center;
+   
+}
+input{
+   padding: 15px;
+   width: 60%;
+   border-radius: 55px;
+   
    
 }
 
+input:hover{
+   background-color: black;
+   color:white;
+   cursor: pointer;
+
+}
 
 .box:hover{
-    box-shadow: 8px 8px 20px cyan;
-    transition: 1s;
-    
-}
+   background-color: black;
+   border-radius: 50px;
+   color: white;
+   box-shadow: 10px 10px 20px cyan;
+   transition: 1s;
 
-.top{
-    background-color: burlywood;
-   
-    background-repeat: no-repeat;
-    background-size:100%;
    
 }
 
-.bot{
-    color:black;
-    text-align: center;
+.about{
+   text-align: center;
+   color: black;
+   padding-top:15px;
+   margin-top: 15px;
+   
 }
 
-.line{
-    color:black;
-}
-
-.down{
-    text-align: center;
-    color:black;
-    background-size: auto;
-    padding: 15px;
-    margin: 15px;
-    text-transform: capitalize;
-     
-    
-}
-
-img{
-    border-radius: 20px;
-}
-
-.head:hover{
-    color: aqua;
-    box-shadow: 8px 8px 20px;
-    transition: 1s;
+.contact{
+   text-align:center;
+   color: darkred;
+   padding-top:25px;
 
 }
 
-h2:hover{
-    transition:1s;
-    color:cyan
+.nextpage{
+   text-align: center;
+   padding:15px;
+   
 }
-.top{
-    background-color: bisque;
-}
+
